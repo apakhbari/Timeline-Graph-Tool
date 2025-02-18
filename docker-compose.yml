@@ -3,9 +3,10 @@ version: "3.8"
 services:
   timeline_graph:
     build: .
-    image: timeline_graph_tool:1.1
+    image: timeline_graph_tool:1.2
     container_name: timeline_graph
     stdin_open: true
     tty: true
     volumes:
       - ./output:/app/output  # Mount output directory
+      - ./timeline.log:/app/timeline.log
