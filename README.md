@@ -21,6 +21,20 @@ Main purpose of tool is to have starting point of different years as vertexes, a
 The main thing here is that i don't want my edges to collide together, (So maybe my graph is flat?). save output to a jpg file.
 I am giving you an image for reference.
 
+```
+Enter starting year of the timeline (e.g., 2015): 2015
+Enter ending year of the timeline (e.g., 2024): 2024
+Enter the number of jobs: 3
+Enter name of job 1: yo
+Enter start date (YYYY-MM) of yo: 2015-03
+Enter end date (YYYY-MM) of yo (or 'present' if ongoing): 2016-03
+Enter name of job 2: yo2
+Enter start date (YYYY-MM) of yo2: 2016-01
+Enter end date (YYYY-MM) of yo2 (or 'present' if ongoing): 2018-06
+Enter name of job 3: yo3
+Enter start date (YYYY-MM) of yo3: 2018-01
+Enter end date (YYYY-MM) of yo3 (or 'present' if ongoing): present
+```
 
 # acknowledgment
 ## Contributors
