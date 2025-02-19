@@ -16,12 +16,11 @@ sudo docker run -it timeline_graph_tool:1.0
 ```
 
 My Prompt:
-Help me with problem i have. I am looking for a tool that can make me create time series Graphs. So i tell it my starting point and ending point in time (for example 2015 - 2024) and then tell it i have been doing Job A from july 2016 to september of 2017 and job B from january of 2017 to March of 2018 and job C from October of 2019 untill 2024 and it creates an intuitive, easy to understand graph for me.
+I have TailwindCSS V 4 and DaisyUI V 5-beta installd (installed Tailwind using vite: $ npm create vite@latest timeline-graph-tool) Now i want a react app. Tell me about my files & directories in advance so i know what belongs to where. Use DaisyUI Components.
+I am looking for a web page that can allow me create time series Graphs. So i tell it my starting point and ending point in time (for example 2015 - 2024) and then tell it i have been doing Job A from july 2016 to september of 2017 and job B from january of 2017 to March of 2018 and job C from October of 2019 untill 2024 and it creates an intuitive, easy to understand graph for me.
 Main purpose of tool is to have starting point of different years as vertexes, and then a main edge which is connecting all (starting point of different years) vertexes together. Then create vertexes for starting point and ending point of different Jobs i have and create an edge  uniquely for each job, for example job A has a vertex for starting point in time in july 2016 and a vertex for ending point in september 2017 and this two vertexes are connected together using an edge.
 The main thing here is that i don't want my edges to collide together, (So maybe my graph is flat?). save output to a jpg file.
-I am giving you an image for reference.
 
-```
 Enter starting year of the timeline (e.g., 2015): 2015
 Enter ending year of the timeline (e.g., 2024): 2024
 Enter the number of jobs: 3
@@ -34,6 +33,29 @@ Enter end date (YYYY-MM) of yo2 (or 'present' if ongoing): 2018-06
 Enter name of job 3: yo3
 Enter start date (YYYY-MM) of yo3: 2018-01
 Enter end date (YYYY-MM) of yo3 (or 'present' if ongoing): present
+
+This is my file structure.
+```
+$ tree -I node_modules
+.
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── public
+│   └── vite.svg
+├── README.md
+├── src
+│   ├── App.css
+│   ├── App.jsx
+│   ├── assets
+│   │   └── react.svg
+│   ├── components
+│   │   ├── TimelineForm.jsx
+│   │   └── TimelineGraph.jsx
+│   ├── index.css
+│   └── main.jsx
+└── vite.config.js
 ```
 
 # acknowledgment
